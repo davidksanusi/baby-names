@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noBorder span input {
+  border: none !important;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.noScrollBar {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.noScrollBar::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
