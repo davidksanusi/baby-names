@@ -32,7 +32,7 @@ const Main = () => {
   useEffect(() => {
   
     const fetchBabies = async () => {
-      try {
+      try { 
         setLoading(true);
         
         let requestBody = {};
